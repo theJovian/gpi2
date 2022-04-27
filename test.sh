@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "testing android...";
-cd sample-webview;
-./gradlew test;
+##echo "testing android...";
+##cd sample-webview;
+##./gradlew test;
 
 echo "testing wordpress...";
 cd ..;
