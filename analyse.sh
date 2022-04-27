@@ -7,4 +7,4 @@ echo "analysing wordpress...";
 ##cd ..;
 cd web;
 cd wordpress;
-sonar-scanner -Dsonar.login=fac0a663b8d5003791ffc3caf02e6888302e52a2;
+/opt/sonar-scanner-4.7.0.2747-linux/bin/sonar-scanner -Dsonar.login=fac0a663b8d5003791ffc3caf02e6888302e52a2;
