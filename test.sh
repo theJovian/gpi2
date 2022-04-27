@@ -4,6 +4,6 @@
 ##./gradlew test;
 
 echo "testing wordpress...";
-cd ..;
+##cd ..;
 cd web;
 php phpunit-6.5.phar wordpress/tests/StackTest.php;
