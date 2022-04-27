@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "analysing android...";
-cd sample-webview;
-./gradlew sonarqube -Dsonar.host.url=http://localhost:9000;
+##echo "analysing android...";
+##cd sample-webview;
+##./gradlew sonarqube -Dsonar.host.url=http://localhost:9000;
 
 echo "analysing wordpress...";
 cd ..;
