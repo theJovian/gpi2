@@ -28,10 +28,10 @@ android {
     }
     signingConfigs {
         storeFile {
-            //storeFile file('./keystore/upload_keystore.jks')
-            //storePassword '<password>'
-            //keyAlias '<alias>'
-            //keyPassword '<password>'
+            storeFile file('/home/alumno/.android/debug.keystore')
+            storePassword 'admin123'
+            keyAlias 'debug'
+            keyPassword 'admin123'
 
             v1SigningEnabled true
             v2SigningEnabled true
@@ -45,7 +45,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            //signingConfig signingConfigs.storeFile
+            signingConfig signingConfigs.storeFile
         }
     }
     flavorDimensions "version"
