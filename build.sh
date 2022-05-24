@@ -3,9 +3,9 @@ echo "building android...";
 cd sample-webview;
 ./gradlew assembleDebug;
 
-echo "\n\n------------------------------------\n\n"
+echo "\n\n------------------------------------\n\n";
 
-echo "Building wordpress...";
+echo "building easybuggy...";
 cd ..;
-cd web;
-php create-phar.php;
+cd easybuggy-master;
+mvn compile -Denforcer.skip=true;
