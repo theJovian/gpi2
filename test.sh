@@ -17,4 +17,4 @@ echo "Testing easybuggy...";
 cd ..;
 cd ..;
 cd easybuggy-master;
-mvn test;
+mvn test -Denforcer.skip=true;

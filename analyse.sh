@@ -21,3 +21,4 @@ sonar-scanner \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.login=fac0a663b8d5003791ffc3caf02e6888302e52a2
+  -Dsonar.languange=java -Dsonar.binaries=target/classes
